@@ -14,7 +14,7 @@ def treats(people: int) -> int:
     """Defining a function to compute
     number of treats by number of drinking tea guest"""
 
-    return int(tea_bags(people=(people * 1.5)))
+    return int((tea_bags(people=people)) * 1.5)
     # Same thought process as before, however took some
     # time to realize that I needed to change data type to int by parenthesis
 
